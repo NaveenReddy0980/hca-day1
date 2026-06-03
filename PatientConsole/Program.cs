@@ -57,7 +57,7 @@ internal class Program
                $"{json}");
         }
 
-        Console.WriteLine();
+        Console.WriteLine("   ");
         Console.WriteLine("Remaining 990 records were generated but not displayed.");
     }
 }
