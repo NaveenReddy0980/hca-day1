@@ -49,6 +49,7 @@ internal class Program
 
         // Display only the first 10 records
         // Imagine these 1000 records being used for testing
+        Console.WriteLine("printing first 10 records");
         foreach (var patient in patients.Take(10))
         {
             string json = JsonConvert.SerializeObject(patient, Formatting.Indented);
